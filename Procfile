@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python siya-music/main.py
