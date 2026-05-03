@@ -43,3 +43,4 @@ async def stop(_, m):
 app.start()
 vc.start()
 app.idle()
+# restart
