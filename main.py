@@ -5,7 +5,7 @@ import yt_dlp
 
 API_ID = 24288289
 API_HASH = "f07ca787bf3a9e9b622f6b61e2bc2cd2"
-BOT_TOKEN = 8608788625:AAG8JhjGyNzGEN7KiGJ_DCY5xOTy_5eYvCg
+BOT_TOKEN = "8608788625:AAG8JhjGyNzGEN7KiGJ_DCY5xOTy_5eYvCg"
 
 app = Client("skmusicbot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 vc = PyTgCalls(app)
@@ -42,5 +42,6 @@ async def stop(_, m):
 
 app.start()
 vc.start()
+print("Bot Started")
 app.idle()
 # restart
