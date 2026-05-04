@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import Client, filters, idle
 from pytgcalls import PyTgCalls
 from pytgcalls.types.input_stream import AudioPiped
 import yt_dlp
@@ -43,5 +43,5 @@ async def stop(_, m):
 app.start()
 vc.start()
 print("Bot Started")
-app.idle()
+idle()
 # restart
